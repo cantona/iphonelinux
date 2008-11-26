@@ -9,7 +9,7 @@ ASFLAGS += -mcpu=arm11
 ARCHFLAGS += -mlittle-endian -mfpu=vfp -mthumb -mthumb-interwork
 LDFLAGS += -Ttext=0x00000000 --nostdlib
 LIBRARIES += -lgcc -nostdlib
-LIBRARY_PATH += -L/usr/local/lib/gcc/arm-elf/4.1.1/interwork/vfp
+LIBRARY_PATH += -L/opt/iplarm-toolchain/lib/gcc/arm-elf/4.1.1/interwork/vfp
 INC += -Iincludes
 CFLAGS += -Wall -O3
 CONFIGFLAGS =
